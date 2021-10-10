@@ -13,8 +13,5 @@ Using it to determine what to return:
 
 Using it directly in JSX:
 `<div>
-  { displaySize >= DisplaySize.MobileM
-    ? <div>BIG TEXT!</div>
-    : <div>small text :( </div>
-  }
+  { displaySize >= DisplaySize.MobileM ? <div>BIG TEXT!</div> : <div>small text :( </div> }
 </div>`
