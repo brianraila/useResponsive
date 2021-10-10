@@ -51,4 +51,5 @@ const useResponsive = () => {
   return useMemo(() => currentDisplaySize, [currentDisplaySize]);
 }
 
-export default useResponsive;
+export const useResponsive = useResponsive;
+export const DisplaySize = DisplaySize;
